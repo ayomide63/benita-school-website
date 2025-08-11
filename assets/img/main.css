@@ -1,7 +1,8 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&family=Sora:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet');
 :root {
-  
+ 
   --it-ff-body: 'Sora', sans-serif;
   --it-ff-heading: 'Epilogue', sans-serif;
   --it-ff-poppins: 'Poppins', sans-serif;
@@ -5388,7 +5389,9 @@ input[type=color] {
   color: var(--it-theme-2);
 }
 
-
+/*----------------------------------------*/
+/*  23. price css start
+/*----------------------------------------*/
 .it-price-item {
   padding: 50px;
   padding-top: 0;
@@ -5405,7 +5408,7 @@ input[type=color] {
 .it-price-item-wrap.active .it-price-category span {
   background-color: var(--it-theme-1);
 }
-.it-price-item-wrap.active .it-price-month span {
+.it-price-item-wrap.active ./pages/junior-school span {
   border: 2px solid var(--it-theme-1);
 }
 .it-price-item-wrap.active .it-price-item::after {
@@ -5472,7 +5475,7 @@ input[type=color] {
     margin-top: 0;
   }
 }
-.it-price-month span {
+./pages/junior-school span {
   height: 130px;
   width: 130px;
   line-height: 130px;
@@ -5480,7 +5483,7 @@ input[type=color] {
   text-align: center;
   display: inline-block;
   color: #0AB99D;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 600;
   text-transform: capitalize;
   background-color: var(--it-common-white);
@@ -5488,7 +5491,7 @@ input[type=color] {
   margin-top: 20px;
   margin-bottom: 15px;
 }
-.it-price-month span i {
+./pages/junior-school span i {
   color: #0E2A46;
   font-size: 14px;
   font-weight: 500;
